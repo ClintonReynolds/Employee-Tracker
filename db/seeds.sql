@@ -17,12 +17,8 @@ VALUES
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
        ('Alice', 'Johnson', 1, NULL),
-       ('Bob', 'Smith', 2, 3),
-       ('Charlie', 'Brown', 3, 3),
-       ('Diana', 'White', 4, 6),
-       ('Eve', 'Black', 5, 7),
-       ('Frank', 'Green', 6, 8),
-       ('Grace', 'Blue', 7, 9),
-       ('Hank', 'Orange', 8, 10),
-       ('Ivy', 'Red', 9, 11),
-       ('Jack', 'Yellow', 10, 12);
+       ('Bob', 'Smith', 2, NULL),
+       ('Charlie', 'Brown', 3, NULL),
+       ('Diana', 'White', 4, NULL),
+       ('Eve', 'Black', 5, NULL);
+       
